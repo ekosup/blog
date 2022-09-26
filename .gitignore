@@ -21,4 +21,4 @@ pnpm-debug.log*
 
 # vscode related
 ./eko-blog.code-workspace
-.vscode
+.vscode/
