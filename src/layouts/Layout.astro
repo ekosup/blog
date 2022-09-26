@@ -1,7 +1,8 @@
 ---
 import Header from '../components/Header.astro'; // because header should be everywhere
-import Footer from '../components/Footer.astro';
+import Footer from '../components/Footer.astro'; // same with footer should be everywhere
 import '../styles/global.css';
+import favicon from '/favicon.svg';
 
 // Applying relaxed typescript
 export interface Props {
@@ -19,6 +20,7 @@ const { title = 'Eko blog' } = Astro.props as Props;
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" type="image/x-icon" href={favicon}>
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
             rel="stylesheet"

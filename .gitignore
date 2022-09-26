@@ -20,5 +20,5 @@ pnpm-debug.log*
 .DS_Store
 
 # vscode related
-./eko-blog.code-workspace
+eko-blog.code-workspace
 .vscode/
